@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/icon?family=Material Icons");
+/* link above is used for social media icons seen in website */
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0;
+  font-family: "Nunito Sans", sans-serif;
+}
+/* Code above is part of styling the navbar on the website */
+
+.navbar {
+  background: black;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: medium;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+/* Code above is part of styling and positioning the navbar on the website */
+
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+  max-width: 2500px;
+  margin: 0 0px;
+  padding: 0 0px;
+}
+/* Code above is for the creation of the navbar on the website */
+
+#navbar__logo {
+  background-color: white;
+  background-image: linear-gradient(
+    to top,
+    gray 0%,
+    rgba(247, 247, 243, 0.067) 100%
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 70px;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 20px;
+  padding: 0 0px;
+}
+/* Code above is used to create a logo name ''BEATLES' as seen on the website*/
+
+.fa-gem {
+  margin-right: 0.5rem;
+}
+/* Beatles img logo */
+
+.navbar__menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+}
+/* Code above is for the positioning of the navbar items on the website */
+
+.navbar__item {
+  height: 80px;
+}
+/* Code above is for the positioning of the navbar items on the website */
+
+.navbar__links {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+}
+/* Code above is for the positioning of the navbar items on the website */
+
+.navbar__links:hover {
+  color: pink;
+  transition: all 0.3s ease;
+}
+/* Code above is for styling of the navbar items on the website */
+
+@media screen and (max-width: 960px) {
+  .navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0;
+  }
+  /* Code above is for responsiveness of the website */
+
+  .navbar__menu {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: -1000px;
+    opacity: 0;
+    transition: all 0.5s ease;
+    height: 50vh;
+    z-index: -1;
+  }
+  /* Code above is for the hamburger menu seen on the mobile site. */
+
+  .navbar__menu.active {
+    background: black;
+    top: 100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 99;
+    height: 50vh;
+    font-size: 20px;
+  }
+  /* Code above is for dropdown animation of the hamburger menu seen on the mobile site */
+
+  #navbar__logo {
+    padding-left: 25px;
+  }
+  /* Code above is for the positioning of the logo seen on the website */
+
+  .navbar__toggle .bar {
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background: #fff;
+  }
+
+  .navbar__item {
+    width: 100%;
+  }
+  .navbar__links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+
+  #mobile-menu {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    transform: translate(5%, 20%);
+  }
+
+  .navbar__btn {
+    padding-bottom: 2rem;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80px;
+    margin: 0;
+  }
+  .navbar__toggle .bar {
+    display: block;
+    cursor: pointer;
+  }
+  #mobile-menu.is-active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  #mobile-menu.is-active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  #mobile-menu.is-active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .box-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .single-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    border-radius: 4px;
+    background-color: #fff;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    transition: 0.3s;
+  }
+
+  .img-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: 6px solid #ddd;
+    border-radius: 60%;
+    margin-bottom: 10px;
+    padding: 20px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .single-box:nth-child(1) .img-area {
+    background-image: url(/images/John-Lennon-1.jpg);
+  }
+
+  #image {
+    background-image: url(/images/Paul-McCartney-2.jpg);
+  }
+
+  #image1 {
+    background-image: url(/images/ringo.jpg);
+  }
+  #image2 {
+    background-image: url(/images/George\ Harrison.jpg);
+  }
+
+  .header-text {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 48px;
+  }
+  .img-text {
+    font-family: Poppins;
+    padding-top: 20px;
+  }
+  .img-text p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  .slide-right {
+    width: 100%;
+    overflow: hidden;
+    margin-left: 430px;
+    max-width: 1200px;
+  }
+
+  .slide-right h1 {
+    animation: 1s slide-right 1s forwards;
+    transform: translateX(-100%);
+  }
+
+  @keyframes slide-right {
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 60px;
+  }
+
+  .footer .social a {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+  }
+
+  h1 {
+    font-size: 100px;
+    white-space: nowrap;
+    color: white;
+  }
+
+  .container {
+    width: 50%;
+    margin: 50px auto;
+    animation: 2s slide-right 2s forwards;
+    transform: translateX(-200%);
+    align-content: center;
+    height: 50%;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+  h2 {
+    font-size: 100px;
+    white-space: nowrap;
+    color: rgb(18, 18, 47);
+  }
+
+  h3 {
+    font-size: 100px;
+    color: rgb(18, 18, 47);
+    white-space: nowrap;
+  }
+
+  #header1 {
+    font-size: 100px;
+    color: rgb(18, 18, 47);
+    white-space: nowrap;
+  }
+
+  iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

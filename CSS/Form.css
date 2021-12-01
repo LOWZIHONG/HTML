@@ -1,0 +1,112 @@
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightblue;
+  }
+
+  #title-Tag-Line {
+    font-size: 30px;
+  }
+  .form {
+    background: whitesmoke;
+    box-shadow: 0 30px 60px 0 grey;
+    border-radius: 5px;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    border-top: 5px solid black;
+    animation: bounce 1.5s infinite;
+  }
+  ::-webkit-input-placeholder {
+    font-size: 15px;
+  }
+
+  .title {
+    display: block;
+    font-family: sans-serif;
+    margin: 10px auto 5px;
+    width: 300px;
+  }
+
+  .pageTitle {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .secondaryTitle {
+    color: grey;
+  }
+
+  .name {
+    background-color: whitesmoke;
+    color: black;
+  }
+  .name:hover {
+    border-bottom: 5px solid greenyellow;
+    height: 30px;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+
+  .email {
+    background-color: whitesmoke;
+    height: 2em;
+  }
+
+  .email:hover {
+    border-bottom: 5px solid greenyellow;
+    height: 30px;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+
+  .message {
+    background-color: whitesmoke;
+    overflow: hidden;
+    height: 10rem;
+  }
+
+  .message:hover {
+    border-bottom: 5px solid greenyellow;
+    height: 12em;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+
+  .formEntry {
+    display: block;
+    margin: 30px auto;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    transition: all 0.5s ease 0s;
+  }
+
+  .submit {
+    width: 200px;
+    color: white;
+    background-color: green;
+    font-size: 20px;
+  }
+
+  .submit:hover {
+    box-shadow: 15px 15px 15px 5px black;
+    transform: translateY(-3px);
+    width: 300px;
+    border-top: 5px solid whitesmoke;
+    border-radius: 0%;
+  }
+
+  @keyframes bounce {
+    0% {
+      tranform: translate(0, 4px);
+    }
+    50% {
+      transform: translate(0, 8px);
+    }
+  }
+}
