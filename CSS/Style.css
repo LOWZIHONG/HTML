@@ -136,6 +136,17 @@
   }
   /* Code above is for the positioning of the logo seen on the website */
 
+  .navbar__toggle .bar {
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background: white;
+  }
+
+  .navbar__item {
+    width: 100%;
+  }
   .navbar__links {
     text-align: center;
     padding: 2rem;
@@ -176,6 +187,7 @@
   #mobile-menu.is-active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+  /* block of code above is for the hamburger menu on the mobile view*/
 }
 
 @media screen and (min-width: 480px) {
@@ -258,7 +270,6 @@
     animation: 1s slide-right 1s forwards;
     transform: translateX(-100%);
   }
-  /* Animation of sliding in from right hand side as seen in index html */
 
   @keyframes slide-right {
     to {
@@ -343,4 +354,5 @@
     margin-left: auto;
     margin-right: auto;
   }
+  /* Code above is used to embed a video into About.html.*/
 }
