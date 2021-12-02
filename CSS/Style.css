@@ -135,24 +135,6 @@
   }
   /* Code above is for the positioning of the logo seen on the website */
 
-  .navbar__toggle .bar {
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    transition: all 0.3s ease-in-out;
-    background: #fff;
-  }
-
-  .navbar__item {
-    width: 100%;
-  }
-  .navbar__links {
-    text-align: center;
-    padding: 2rem;
-    width: 100%;
-    display: table;
-  }
-
   #mobile-menu {
     position: absolute;
     top: 20%;
@@ -226,6 +208,7 @@
     background-size: cover;
     background-position: center center;
   }
+  /* Code above is for setting up an image area seen in index html that holds the picture */
 
   .single-box:nth-child(1) .img-area {
     background-image: url(/images/John-Lennon-1.jpg);
@@ -241,6 +224,8 @@
   #image2 {
     background-image: url(/images/George\ Harrison.jpg);
   }
+
+  /* Code above is for the styling seen in index html */
 
   .header-text {
     font-size: 24px;
@@ -268,6 +253,7 @@
     animation: 1s slide-right 1s forwards;
     transform: translateX(-100%);
   }
+  /* Animation of sliding in from right hand side as seen in index html */
 
   @keyframes slide-right {
     to {
@@ -352,4 +338,5 @@
     margin-left: auto;
     margin-right: auto;
   }
+  /* Embedding of video into About.html */
 }
