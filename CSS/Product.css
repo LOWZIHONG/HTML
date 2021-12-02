@@ -73,14 +73,14 @@
   .title {
     font-size: 64px;
   }
-  .prix {
+  .price {
     margin: 50px 0px;
     width: 45%;
     display: flex;
     justify-content: space-between;
     border-left: 4px solid rgb(255, 177, 33);
   }
-  .prix span {
+  .price span {
     padding-left: 10px;
   }
   /* Code above is for styling of prices seen in Products html */
