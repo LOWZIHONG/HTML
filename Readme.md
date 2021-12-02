@@ -34,7 +34,8 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 
-- Another feature idea
+- Another feature idea:
+  While coding up the web i had many ideas on how i can make more intresting micro interactions for users and thougth of a carousel slide so that user can scroll back and forth between contents throught the page.
 
 ## Technologies Used
 
@@ -43,21 +44,23 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - Adobe XD
   - The project uses Adobe XD to create a wireframe design of the website.
 
+Visual Studio Code
+Use to create/code the website for this assingments, for this assigment i used HTML as the priamry programming language, cascading stylesheet for the layout and design of the web. Last but not least a simple javascripts was used.
+
 ## Testing
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-1. Contact form:
-   1. Go to the "Contact Us" page
-   2. Try to submit the empty form and verify that an error message about the required fields appears
-   3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-   4. Try to submit the form with all inputs valid and verify that a success message appears.
+1. Contact form
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+- User browse through the web and views the band merchandie.
+- User wishes to know more about the product and clicks the 'contact for more info' found on the page.
+- User is redirected to a form page where he/she fills up a simple form that get basic information like name and email and a message box.
+- User forgets to key the email, gets prompted by the input validation i coded into the form page. Where by it is required to give the user name & their email in order to submit their response.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Cross browser
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- At the start i faced issue with cross browser compatibility when my external css doesnt load to chrome but i have since rectify it and my project is able to run on IE,Chrome.
 
 ## Credits
 
