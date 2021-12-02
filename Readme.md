@@ -58,6 +58,8 @@ For any scenarios that have not been automated, test the user stories manually a
 
 - At the start i faced issue with cross browser compatibility when my external css doesnt load to chrome but i have since rectify it and my project is able to run on IE,Chrome and firfox the main three browser i used to test my website responsivesness.
 
+An example can be seen evidently as i view my website most of the time is IE i saw that the images in 'index.html' works fine but doesnt apply to chrome and firefox. I manage to make the other pages load my external css, only downside is that chrome and firefox has a minor issue with loading the file while IE has no issue at all.
+
 3. Mobile view
 
 - In terms of responsiveness the website is fully responsive, while some of the pages i struggle with getting the content to conform to the mobile view i still manage to make it easier for user to view.
