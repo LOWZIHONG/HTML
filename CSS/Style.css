@@ -230,18 +230,18 @@
   }
 
   .single-box:nth-child(1) .img-area {
-    background-image: url(images/John-Lennon-1.jpg);
+    background-image: url(/images/John-Lennon-1.jpg);
   }
 
   #image {
-    background-image: url(images/Paul-McCartney-2.jpg);
+    background-image: url(/images/Paul-McCartney-2.jpg);
   }
 
   #image1 {
-    background-image: url(images/ringo.jpg);
+    background-image: url(/images/ringo.jpg);
   }
   #image2 {
-    background-image: url(images/George\ Harrison.jpg);
+    background-image: url(/images/George\ Harrison.jpg);
   }
 
   .header-text {
