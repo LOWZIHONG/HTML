@@ -2,7 +2,7 @@ Interactive development Assingment 1
 
 # Beatles Website
 
-For Assignment 1, I set out to create a webpage for a band name 'Beatles' hoping to intorduce the icon of the 60s
+For Assignment 1, I set out to create a simple webpage for a band name 'Beatles' hoping to intorduce the icon of the 60s
 to visitor of the website for them to know the band better and to help the band with the auction of their merchandise.
 
 ## Design Process
@@ -27,10 +27,7 @@ In the mobile view there is a hamburger menu that helps user navigate throughout
 
 ### Existing Features
 
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+Feature 1 - allows users to achieve contacting the band for more information, by having them fill out a simepl form.
 
 ### Features Left to Implement
 
@@ -39,10 +36,9 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+Adobe XD
 
-- Adobe XD
-  - The project uses Adobe XD to create a wireframe design of the website.
+- The project uses Adobe XD to create a wireframe design of the website. (Refer to Design process above for Adobe XD link to wireframe)
 
 Visual Studio Code
 Use to create/code the website for this assingments, for this assigment i used HTML as the priamry programming language, cascading stylesheet for the layout and design of the web. Last but not least a simple javascripts was used.
@@ -58,9 +54,13 @@ For any scenarios that have not been automated, test the user stories manually a
 - User is redirected to a form page where he/she fills up a simple form that get basic information like name and email and a message box.
 - User forgets to key the email, gets prompted by the input validation i coded into the form page. Where by it is required to give the user name & their email in order to submit their response.
 
-Cross browser
+  2.Cross browser
 
-- At the start i faced issue with cross browser compatibility when my external css doesnt load to chrome but i have since rectify it and my project is able to run on IE,Chrome.
+- At the start i faced issue with cross browser compatibility when my external css doesnt load to chrome but i have since rectify it and my project is able to run on IE,Chrome and firfox the main three browser i used to test my website responsivesness.
+
+3. Mobile view
+
+- In terms of responsiveness the website is fully responsive, while some of the pages i struggle with getting the content to conform to the mobile view i still manage to make it easier for user to view.
 
 ## Credits
 
