@@ -21,7 +21,7 @@ index.html or aka 'Home' on the website the first thing user see when the visit 
 
 About.html or aka 'About' on the website is for users to get to know the band better in hopes to help the band out by gaining a bigger fanbase.
 
-Product.htmls or aka 'Products' on the website is to help users who are intrested in purchasing the band merchandise in that page there is a 'contact for more info' link where it will bring user to a form page for them to fill out.
+Product.html or aka 'Products' on the website is to help users who are intrested in purchasing the band merchandise in that page there is a 'contact for more info' link where it will bring user to a form page for them to fill out.
 
 In the mobile view there is a hamburger menu that helps user navigate throughout the website easily.
 
